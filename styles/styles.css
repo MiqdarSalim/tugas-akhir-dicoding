@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #7C81AD;
+  color: #FFF;
+  scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2E4374;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #2E4374;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #2E4374;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #2E4374;
+}
+
+nav h2{
+    background-color: #2E4374 ;
+}
+
+nav ul li:hover a{
+    transition: all .2s ease-in-out;
+    background-color: #4B527E;
+    border-radius: 5px;
+}
+
+#HOME{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+}
+
+#HOME img{
+    border: 5px solid white;
+    border-radius: 100px;
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    background-color: #2E4374;
+}
+
+#HOME article{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    padding: 20px;
+}
+
+#HOME article .name h2{
+    border: 3px solid white;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#ABOUT p {
+    text-align: justify;
+}
+
+#CONTACT {
+    text-align: right;
+}
+#CONTACT ul li{
+    list-style-type: none;
+}
+
+footer{
+    padding: 30px;
+    background-color: #2E4374;
+    text-align: center;
+}
+
+footer p{
+    background-color: #2E4374;
+}
